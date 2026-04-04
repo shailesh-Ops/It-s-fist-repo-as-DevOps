@@ -33,3 +33,12 @@ ps -a
 echo "______________________________________________"
 
 echo "THIS SERVER HEALTH CHECK ARE COMPLITED¹Å"
+
+echo "______________________________________________"
+
+echo "THIS ADD NEW FEATURE ON SERVER MONITORING....."
+
+echo -e "\n[cpu load]"
+uptime | awk  -F'THIS SHOW CPU INFO :>>''{print $1,$2}'
+
+
