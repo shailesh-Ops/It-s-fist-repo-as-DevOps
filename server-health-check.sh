@@ -22,4 +22,14 @@ df -Th
 
 echo "______________________________________________"
 
+echo "THIS IS RUNING PROCESS SHOW ON LOCALLY "
+ps 
+
+echo "/////////////////////"
+
+echo "THIS LINE ENSURE TO SHOW HIDE PROCESS.....SHOW"
+ps -a
+
+echo "______________________________________________"
+
 echo "THIS SERVER HEALTH CHECK ARE COMPLITED¹Å"
