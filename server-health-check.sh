@@ -41,4 +41,8 @@ echo "THIS ADD NEW FEATURE ON SERVER MONITORING....."
 echo -e "\n[cpu load]"
 uptime | awk  -F'THIS SHOW CPU INFO :>>''{print $1,$2}'
 
+echo -e "\n[grep user list"
+cat  /etc/passwd | grep userland
+
+
 
