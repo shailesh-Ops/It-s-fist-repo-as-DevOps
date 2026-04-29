@@ -1,0 +1,43 @@
+    PID TTY          TIME CMD
+      1 pts/0    00:00:00 bash
+    180 pts/0    00:00:00 ps
+Filesystem      Size  Used Avail Use% Mounted on
+overlay        1007G  3.3G  953G   1% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/sdd       1007G  3.3G  953G   1% /etc/hosts
+tmpfs           3.9G     0  3.9G   0% /proc/acpi
+tmpfs           3.9G     0  3.9G   0% /proc/scsi
+tmpfs           3.9G     0  3.9G   0% /sys/firmware
+free: invalid option -- 'f'
+
+Usage:
+ free [options]
+
+Options:
+ -b, --bytes         show output in bytes
+     --kilo          show output in kilobytes
+     --mega          show output in megabytes
+     --giga          show output in gigabytes
+     --tera          show output in terabytes
+     --peta          show output in petabytes
+ -k, --kibi          show output in kibibytes
+ -m, --mebi          show output in mebibytes
+ -g, --gibi          show output in gibibytes
+     --tebi          show output in tebibytes
+     --pebi          show output in pebibytes
+ -h, --human         show human-readable output
+     --si            use powers of 1000 not 1024
+ -l, --lohi          show detailed low and high memory statistics
+ -L, --line          show output on a single line
+ -t, --total         show total for RAM + swap
+ -v, --committed     show committed memory and commit limit
+ -s N, --seconds N   repeat printing every N seconds
+ -c N, --count N     repeat printing N times, then exit
+ -w, --wide          wide output
+
+     --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see free(1).
+uid=0(root) gid=0(root) groups=0(root)
